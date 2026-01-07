@@ -1,0 +1,11 @@
+Framework/KillAllProcesses.xaml|638996668260000000
+Framework/CloseAllApplications.xaml|638996668260000000
+Framework/InitAllApplications.xaml|638996668260000000
+Framework/GetTransactionData.xaml|639033243526666179
+Framework/InitAllSettings.xaml|638996668260000000
+Framework/Process.xaml|639033966780311094
+Framework/TakeScreenshot.xaml|638996668260000000
+Framework/RetryCurrentTransaction.xaml|638996668260000000
+Framework/SetTransactionStatus.xaml|639033244584631592
+Main.xaml|639032914531808399
+CustomActivities/LoginToGoogle.xaml|639033910490457241

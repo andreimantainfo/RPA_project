@@ -1,0 +1,14 @@
+﻿{
+  "Name": "i10-index",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "KDIVJ3PHtkS7UmB6Wepb_g",
+  "Reference": "pziip-KPEUmSmXmKprJ5pg/KDIVJ3PHtkS7UmB6Wepb_g",
+  "ParentRef": "pziip-KPEUmSmXmKprJ5pg/MLF53rIs-063Kvz9i8H5Yw",
+  "Created": "2026-01-07T15:26:01.4831256Z",
+  "Updated": "2026-01-07T15:26:01.4831256Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

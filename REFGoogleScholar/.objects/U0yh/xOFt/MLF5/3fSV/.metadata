@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Conectează-te",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3fSVRFF-cESUqiqH2jBcHw",
+  "Reference": "pziip-KPEUmSmXmKprJ5pg/3fSVRFF-cESUqiqH2jBcHw",
+  "ParentRef": "pziip-KPEUmSmXmKprJ5pg/MLF53rIs-063Kvz9i8H5Yw",
+  "Created": "2026-01-07T14:01:52.3572777Z",
+  "Updated": "2026-01-07T14:01:52.3572777Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

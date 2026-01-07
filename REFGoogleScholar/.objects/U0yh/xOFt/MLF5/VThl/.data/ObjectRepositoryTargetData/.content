@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pD-KxNniJkiLzozFOe0ceQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="scholar.google.com/citations" CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" CvType="AnyWordGroup" DesignTimeRectangle="1486, 518, 51, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' /&gt;&lt;webctrl class='gsc_rsb_std' tableRow='2' tag='TD' /&gt;" Guid="c3d100f0-53d2-4832-913c-3773f9eab645" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‪Andrei Dragoș Manta‬ - ‪Google Scholar‬' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" CvTextArea="1336, 524, 65, 15" CvTextArgument="Citations" CvType="Text" DesignTimeRectangle="1338, 521, 63, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='A' class='gsc_rsb_f gs_ibl' aaname='Citations' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Citations' /&gt;" Guid="8b497491-c187-4296-9fe2-5430971097a7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="026ab864d43a767820534609e8b55594.png" xmlns="">0uicOwUUK9UyPwN5HZmoQxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

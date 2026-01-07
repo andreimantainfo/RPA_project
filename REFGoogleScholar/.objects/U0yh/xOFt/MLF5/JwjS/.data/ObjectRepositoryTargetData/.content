@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GCsD_86_qEuj9tXznibgBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.google.com/v3/signin/challenge/pwd" CVScreenId="ce810441-8dcb-4174-8f2c-61545707a154" CvElementArea="1003, 487, 632, 72" CvType="InputBox" DesignTimeRectangle="1002, 523, 630, 65" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" Guid="b106c35d-299c-4840-b65d-b2cf1ca027bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Andrei Dragoș Manta' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ce810441-8dcb-4174-8f2c-61545707a154" CvElementArea="1003, 487, 632, 72" CvType="InputBox" DesignTimeRectangle="1009, 512, 108, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Introdu parola' parentid='password' tag='DIV' type='' class='AxOyFc snByac' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Introdu parola' /&gt;" Guid="b6e68445-30af-4d50-961f-b5f1086c1faa" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5814efdd02046fba5b45d5b620409096.png" xmlns="">0NFUCwcXg5k6JjXdQOa8ppQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FV9QnMdW6EKL0CUVUHs-Nw" Reference="pziip-KPEUmSmXmKprJ5pg/CXRaf-3KIEG_Q7YymZhrdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.google.com/v3/signin/accountchooser" DesignTimeRectangle="970, 312, 665, 85" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='link' tag='DIV' /&gt;" Guid="3339eb59-a041-4533-b2f1-f71481157f85" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Conectează-te – Conturi Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MFq5tqBaS0yxivae968d5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="scholar.google.com/schhp" CVScreenId="e08a1b6c-22ff-455c-b78a-d42125b4c5a5" CvTextArea="131, 147, 72, 19" CvTextArgument="My profile" CvType="Text" DesignTimeRectangle="97, 146, 106, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='gs_lbl' parentid='gs_hdr_hpl' tag='SPAN' /&gt;" Guid="d4b605e0-a90f-4d83-8b7c-bdbd3f043bfe" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Scholar' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e0c07f30892769349f589c4d669a6c15.png" xmlns="">0LtLHroqhJ0yKmrZTEnnzxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

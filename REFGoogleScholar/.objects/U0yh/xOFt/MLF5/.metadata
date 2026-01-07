@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Google Academic(1)",
+  "Type": "Screen",
+  "Id": "MLF53rIs-063Kvz9i8H5Yw",
+  "Reference": "pziip-KPEUmSmXmKprJ5pg/MLF53rIs-063Kvz9i8H5Yw",
+  "ParentRef": "pziip-KPEUmSmXmKprJ5pg/xOFt2kYKSUu3JANtplNHAw",
+  "Created": "2026-01-07T13:56:45.9382083Z",
+  "Updated": "2026-01-07T13:56:45.9382083Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
