@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="RL5CwPTuAEy0EF72Noa3wQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="3m0m2eJRjkaAF-XoPlMIyw" Reference="pziip-KPEUmSmXmKprJ5pg/0PwMje9ObU-5acF72hNh5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.google.com/v3/signin/challenge/pwd" CVScreenId="704b2780-8b85-45a5-b1f0-821d36f4233c" CvElementArea="1514, 709, 124, 55" CvTextArea="1546, 725, 57, 18" CvTextArgument="Înainte" CvType="Button" DesignTimeRectangle="1548, 723, 56, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='SPAN' type='' class='VfPpkd-vQzf8d' aaname='Înainte' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Înainte' /&gt;" Guid="d9498b19-f6d7-4c22-a87a-e4579cfed945" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Andrei Dragoș Manta' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
           <Target CVScreenId="704b2780-8b85-45a5-b1f0-821d36f4233c" CvElementArea="1514, 709, 124, 55" CvTextArea="1546, 725, 57, 18" CvTextArgument="Înainte" CvType="Button" DesignTimeRectangle="1518, 711, 116, 50" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='BUTTON' type='button' class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b' aaname='Înainte' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Înainte' /&gt;" Guid="e55d04b3-c7aa-493e-92a2-b2eedc8b07da" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="51d7decf1f2b24f05c5b10d56cc62a4e.png" xmlns="">0S0bZm1QFQEuoqHDQzlpFvw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

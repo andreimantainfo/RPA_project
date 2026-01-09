@@ -100,23 +100,11 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="895.6,2905.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="895.6,3198.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="strI10Index">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">0</Literal>
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="x:String" Name="strHIndex">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">0</Literal>
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="x:String" Name="strCitations">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">0</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="0" Name="strI10Index" />
+      <Variable x:TypeArguments="x:String" Default="0" Name="strHIndex" />
+      <Variable x:TypeArguments="x:String" Default="0" Name="strCitations" />
       <Variable x:TypeArguments="x:String" Name="strPassword">
         <Variable.Default>
           <Literal x:TypeArguments="x:String" Value="" />
@@ -166,7 +154,7 @@
         </InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Google Academic" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,2463.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Google Academic" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,2486.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -179,24 +167,30 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,126.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Conectează-te'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="scholar.google.com" CVScreenId="c853a769-975e-44ae-9bfd-39cb8497657c" ContentHash="4PVRD7mgdkGYhFQVPZtXYQ" CvTextArea="1759, 146, 140, 17" CvTextArgument="CONECTEAZĂ-TE" CvType="Text" DesignTimeRectangle="1742, 117, 187, 79" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gs_hdr_act_s' tag='A' /&gt;" Guid="386bd919-82b1-4e04-bb50-45783dbead6b" InformativeScreenshot="5d15e0547072f657cffa27a554fbb7b9.png" Reference="pziip-KPEUmSmXmKprJ5pg/3fSVRFF-cESUqiqH2jBcHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Academic' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="scholar.google.com" CVScreenId="fdc74729-f9b4-440b-9428-371095fc53d1" CvTextArea="1836, 212, 62, 17" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="1818, 182, 111, 79" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gs_hdr_act_s' tag='A' /&gt;" Guid="7225c522-4ffb-47e2-805e-3eef7ef323ef" InformativeScreenshot="b320f640caca8dadc8facb810b043c91.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Scholar' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="fdc74729-f9b4-440b-9428-371095fc53d1" CvTextArea="1836, 212, 62, 17" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="1836, 213, 62, 16" ElementType="Text" Guid="76105881-db07-48ea-86c8-b6a4b642b047" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
             <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,126.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click first Google account in list" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="accounts.google.com/v3/signin/accountchooser" ContentHash="FV9QnMdW6EKL0CUVUHs-Nw" DesignTimeRectangle="970, 312, 665, 85" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='link' tag='DIV' /&gt;" Guid="3339eb59-a041-4533-b2f1-f71481157f85" Reference="pziip-KPEUmSmXmKprJ5pg/CXRaf-3KIEG_Q7YymZhrdg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Conectează-te – Conturi Google' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable BrowserURL="accounts.google.com/v3/signin/accountchooser" DesignTimeRectangle="970, 377, 665, 85" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='link' tag='DIV' /&gt;" Guid="3d7ed13d-f45a-476e-8a9c-06b9f8d128a8" InformativeScreenshot="6d8ce24b61554dd966611c967923e00c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in - Google Accounts' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
             <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,126.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Introdu parola'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,249.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="accounts.google.com/v3/signin/challenge/pwd" CVScreenId="ce810441-8dcb-4174-8f2c-61545707a154" ContentHash="GCsD_86_qEuj9tXznibgBQ" CvElementArea="1003, 487, 632, 72" CvType="InputBox" DesignTimeRectangle="1002, 523, 630, 65" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" Guid="b106c35d-299c-4840-b65d-b2cf1ca027bc" InformativeScreenshot="5814efdd02046fba5b45d5b620409096.png" Reference="pziip-KPEUmSmXmKprJ5pg/JwjSnvVjO0-z_YbuCYu9-Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Andrei Dragoș Manta' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable BrowserURL="accounts.google.com/v3/signin/challenge/pwd" CVScreenId="65349b4c-8d73-4832-a865-9f33d4c4bb81" CvElementArea="996, 520, 640, 73" CvType="InputBox" DesignTimeRectangle="1002, 523, 630, 65" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='whsOnd zHQkBf' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6f2f39d6-6002-41e5-a554-554350c3616c" InformativeScreenshot="72045a18d651967c891f9384b25455b1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hi Andrei Dragoș' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="ce810441-8dcb-4174-8f2c-61545707a154" CvElementArea="1003, 487, 632, 72" CvType="InputBox" DesignTimeRectangle="1009, 512, 108, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Introdu parola' parentid='password' tag='DIV' type='' class='AxOyFc snByac' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Introdu parola' /&gt;" Guid="b6e68445-30af-4d50-961f-b5f1086c1faa" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="65349b4c-8d73-4832-a865-9f33d4c4bb81" CvElementArea="996, 520, 640, 73" CvType="InputBox" DesignTimeRectangle="1009, 545, 203, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Enter your password' parentid='password' tag='DIV' type='' class='AxOyFc snByac' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Enter your password' /&gt;" Guid="3a0464af-3199-4a1d-8cc7-61460eaba516" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -208,12 +202,12 @@
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
             <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,126.4" sap2010:WorkflowViewState.IdRef="Delay_4" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Înainte'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,197.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f5d4a93-3d70-4523-930a-edef3aa50826" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="accounts.google.com/v3/signin/challenge/pwd" CVScreenId="704b2780-8b85-45a5-b1f0-821d36f4233c" ContentHash="RL5CwPTuAEy0EF72Noa3wQ" CvElementArea="1514, 709, 124, 55" CvTextArea="1546, 725, 57, 18" CvTextArgument="Înainte" CvType="Button" DesignTimeRectangle="1548, 723, 56, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='SPAN' type='' class='VfPpkd-vQzf8d' aaname='Înainte' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Înainte' /&gt;" Guid="d9498b19-f6d7-4c22-a87a-e4579cfed945" InformativeScreenshot="51d7decf1f2b24f05c5b10d56cc62a4e.png" Reference="pziip-KPEUmSmXmKprJ5pg/0PwMje9ObU-5acF72hNh5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Andrei Dragoș Manta' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable BrowserURL="accounts.google.com/v3/signin/challenge/pwd" CVScreenId="65349b4c-8d73-4832-a865-9f33d4c4bb81" CvElementArea="1531, 709, 106, 56" CvTextArea="1565, 727, 38, 16" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1536, 706, 98, 60" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='VfPpkd-RLmnJb' parentid='passwordNext' tag='DIV' /&gt;" Guid="ac27c310-b2ed-4bad-ac53-adc642e6e2d4" InformativeScreenshot="8f8b53ca0ef3d1a514cd78d30f75331e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Hi Andrei Dragoș' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="704b2780-8b85-45a5-b1f0-821d36f4233c" CvElementArea="1514, 709, 124, 55" CvTextArea="1546, 725, 57, 18" CvTextArgument="Înainte" CvType="Button" DesignTimeRectangle="1518, 711, 116, 50" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='BUTTON' type='button' class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 BqKGqe Jskylb TrZEUc lw1w4b' aaname='Înainte' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Înainte' /&gt;" Guid="e55d04b3-c7aa-493e-92a2-b2eedc8b07da" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="65349b4c-8d73-4832-a865-9f33d4c4bb81" CvElementArea="1531, 709, 106, 56" CvTextArea="1565, 727, 38, 16" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1566, 723, 38, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='SPAN' type='' class='VfPpkd-vQzf8d' aaname='Next' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Next' /&gt;" Guid="1c14b9e6-57d1-46bc-9471-03fc5fac9653" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -230,7 +224,7 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="scholar.google.com/citations" CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" ContentHash="pD-KxNniJkiLzozFOe0ceQ" CvType="AnyWordGroup" DesignTimeRectangle="1486, 518, 51, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' /&gt;&lt;webctrl class='gsc_rsb_std' tableRow='2' tag='TD' /&gt;" Guid="c3d100f0-53d2-4832-913c-3773f9eab645" InformativeScreenshot="026ab864d43a767820534609e8b55594.png" Reference="pziip-KPEUmSmXmKprJ5pg/VThlZXnYr0Os7DouCkVGfg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‪Andrei Dragoș Manta‬ - ‪Google Scholar‬' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" CvTextArea="1336, 524, 65, 15" CvTextArgument="Citations" CvType="Text" DesignTimeRectangle="1338, 521, 63, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='A' class='gsc_rsb_f gs_ibl' aaname='Citations' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Citations' /&gt;" Guid="8b497491-c187-4296-9fe2-5430971097a7" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -246,7 +240,7 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="scholar.google.com/citations" CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" ContentHash="KFx48edeT0et0MGBNh6guw" CvType="AnyWordGroup" DesignTimeRectangle="1486, 543, 51, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' /&gt;&lt;webctrl class='gsc_rsb_std' tableRow='3' tag='TD' /&gt;" Guid="fb468acd-d2b1-4dc7-8f47-9d7aed96269d" InformativeScreenshot="9c103477d9c2c756f1be27d6dc00cf23.png" Reference="pziip-KPEUmSmXmKprJ5pg/4L9zUXUgu0m3V-dBD1PMzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‪Andrei Dragoș Manta‬ - ‪Google Scholar‬' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" CvTextArea="1336, 549, 55, 15" CvTextArgument="h-index" CvType="Text" DesignTimeRectangle="1338, 546, 54, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='A' class='gsc_rsb_f gs_ibl' aaname='h-index' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='h-index' /&gt;" Guid="363b4a37-9c80-4c28-8e53-2ab4357ae357" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -262,7 +256,7 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="scholar.google.com/citations" CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" ContentHash="NlF84xIOEEC8C7HnN66Ptg" CvType="AnyWordGroup" DesignTimeRectangle="1486, 568, 51, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' /&gt;&lt;webctrl class='gsc_rsb_std' tableRow='4' tag='TD' /&gt;" Guid="9659ce79-5458-45a2-978a-a83e30dfd721" InformativeScreenshot="34a2cb3cd26450a0be6a4dc158a51702.png" Reference="pziip-KPEUmSmXmKprJ5pg/KDIVJ3PHtkS7UmB6Wepb_g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‪Andrei Dragoș Manta‬ - ‪Google Scholar‬' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="d3cc88f3-2196-4794-8362-b0b23fffdd08" CvTextArea="1336, 574, 67, 15" CvTextArgument="i10-index" CvType="Text" DesignTimeRectangle="1338, 571, 66, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='gsc_rsb_st' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='A' class='gsc_rsb_f gs_ibl' aaname='i10-index' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='i10-index' /&gt;" Guid="1be7b6a5-6a6f-4cca-9298-39eb7b0fa91c" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="4PVRD7mgdkGYhFQVPZtXYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="3aCzsunNpk66iyqscU-DIw" Reference="pziip-KPEUmSmXmKprJ5pg/3fSVRFF-cESUqiqH2jBcHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="scholar.google.com" CVScreenId="c853a769-975e-44ae-9bfd-39cb8497657c" CvTextArea="1759, 146, 140, 17" CvTextArgument="CONECTEAZĂ-TE" CvType="Text" DesignTimeRectangle="1742, 117, 187, 79" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gs_hdr_act_s' tag='A' /&gt;" Guid="386bd919-82b1-4e04-bb50-45783dbead6b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Academic' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="5d15e0547072f657cffa27a554fbb7b9.png" xmlns="">0jCizgZXG406lWk44tB_-nA</imageRef>
-    </TargetAnchorable>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="scholar.google.com" CVScreenId="c853a769-975e-44ae-9bfd-39cb8497657c" CvTextArea="1759, 146, 140, 17" CvTextArgument="CONECTEAZĂ-TE" CvType="Text" DesignTimeRectangle="1742, 117, 187, 79" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gs_hdr_act_s' tag='A' /&gt;" Guid="386bd919-82b1-4e04-bb50-45783dbead6b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Academic' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
