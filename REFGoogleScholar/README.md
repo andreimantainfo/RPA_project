@@ -22,7 +22,13 @@
         
         -   If the item is a trigger (no paper data), the bot navigates to the user's profile.
             
+        -   Extracts user metrics: **Total Citations**, **h-index**, and **i10-index**.
+            
         -   Scrapes the full list of publications (Title, Year, Citations) using **Table Extraction**.
+            
+        -   **Generates Excel Report:** Creates `GoogleScholarReport_[timestamp].xlsx` in `Data/Output/` containing:
+            -   **Summary sheet:** Report timestamp, Total Citations, h-index, i10-index, Total Papers count
+            -   **Papers sheet:** Complete list of all papers with Title, URL, Cited By count, and Year
             
         -   Uses **Bulk Add Queue Items** to populate the Orchestrator queue with the scraped papers.
             
