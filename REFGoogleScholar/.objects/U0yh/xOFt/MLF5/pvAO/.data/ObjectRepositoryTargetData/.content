@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hGvOYJuB0kGKLb0gitYxiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="scholar.google.com/citations" CVScreenId="b77e978d-c909-4c4c-9834-4b7f6eee3f8e" CvType="AnyWordGroup" DesignTimeRectangle="368, 723, 66, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='gsc_oci_table' tag='A' type='' class='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="04c4b75f-0c77-42ae-aa54-42cc728f5f79" ScopeSelectorArgument="&lt;html app='chrome.exe' title='View article' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b77e978d-c909-4c4c-9834-4b7f6eee3f8e" CvTextArea="272, 723, 80, 13" CvTextArgument="Total citations" CvType="Text" DesignTimeRectangle="252, 723, 100, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Total citations' class='gsc_oci_field' parentid='gsc_oci_table' tag='DIV' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Total citations' /&gt;" Guid="9fb8e75d-e492-45d7-ae34-a097378acc98" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f13d75e7bb1e771ad23af5a309b7177.png" xmlns="">0zq5jrDa7tESut9XhSdWVMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
