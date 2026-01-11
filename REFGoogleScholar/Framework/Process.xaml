@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Process" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Process" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Transaction item to be processed." Name="in_TransactionItem" Type="InArgument(ui:QueueItem)" />
     <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
@@ -253,6 +253,22 @@
                       <uix:TargetAnchorable BrowserURL="https://scholar.google.com/citations?user=azoqzzUAAAAJ&amp;hl=en" DesignTimeRectangle="244, 351, 850, 286" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='gsc_a_t' tag='TABLE' /&gt;" Guid="3caf8627-40b8-4ba6-b731-c50e0f59bdca" InformativeScreenshot="841c6bb82c915ec9265e46adaf1341cc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='‪Paul Hiticas‬ - ‪Google Scholar‬' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NExtractData.Target>
                   </uix:NExtractData>
+                  <If DisplayName="Check If Data Extracted" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="If_CheckDataExtracted">
+                    <If.Condition>
+                      <InArgument x:TypeArguments="x:Boolean">
+                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue_CheckNoData">ExtractDataTable == null || ExtractDataTable.Rows.Count == 0</CSharpValue>
+                      </InArgument>
+                    </If.Condition>
+                    <If.Then>
+                      <Throw DisplayName="Throw Business Exception - No Data Extracted" sap:VirtualizedContainerService.HintSize="416,100" sap2010:WorkflowViewState.IdRef="Throw_NoDataExtracted">
+                        <Throw.Exception>
+                          <InArgument x:TypeArguments="s:Exception">
+                            <CSharpValue x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="CSharpValue_BRE_NoData">new UiPath.Core.BusinessRuleException("No publications data extracted from Google Scholar. The user profile may be empty or the page structure has changed.")</CSharpValue>
+                          </InArgument>
+                        </Throw.Exception>
+                      </Throw>
+                    </If.Then>
+                  </If>
                   <Sequence DisplayName="Generate Google Scholar Report" sap:VirtualizedContainerService.HintSize="450,954" sap2010:WorkflowViewState.IdRef="Sequence_GenerateReport">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
